@@ -1,0 +1,258 @@
+MINMAXFREQ ON
+AVERAGEFREQ ON
+GENOMICCONTROL ON
+SCHEME STDERR
+#SCHEME SAMPLESIZE
+
+
+#STUDY 1.UKB
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL ln_or
+WEIGHTLABEL DONTUSECOLUMN
+DEFAULTWEIGHT 94968
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se_ln_or
+FREQLABEL a1freq
+PROCESS data/ukbb_ewgsop_male.with_ors.v20200218.tsv
+
+#STUDY 2.ARIC
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/aric_ewgsop_male.tsv
+
+#STUDY 3.BASEII
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/baseii_ewgsop_male.tsv
+
+#STUDY 4.BPROOF
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/bproof_ewgsop_male.tsv
+
+#STUDY 5.CHS
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/chs_ewgsop_male.tsv
+
+#STUDY 6.EPIC-NORFOLK
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/epic-norfolk_ewgsop_male.tsv
+
+#STUDY 7.FHS
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/fhs_ewgsop_male.tsv
+
+#STUDY 8.HRS
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL ln_or
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se_ln_or
+FREQLABEL a1freq
+PROCESS data/hrs_ewgsop_male.with_ors.v20200218.tsv
+
+#STUDY 9.INCHIANTI
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/inchianti_ewgsop_male.tsv
+
+#STUDY 10.LASA1
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/lasa1_ewgsop_male.tsv
+
+#STUDY 11.LASA2
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/lasa2_ewgsop_male.tsv
+
+#STUDY 12.LLFS
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/llfs_ewgsop_male.tsv
+
+#STUDY 13.MROSGBG - male only participants
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/mrosgbg_ewgsop_male.tsv
+
+#STUDY 14.MROSMALMO - male only participants
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/mrosmalmo_ewgsop_male.tsv
+
+
+#STUDY 15.ROSMAP1
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/rosmap1_ewgsop_male.tsv
+
+#STUDY 16.ROSMAP2
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/rosmap2_ewgsop_male.tsv
+
+#STUDY 17.RS1
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/rs1_ewgsop_male.tsv
+
+#STUDY 18.RS2
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/rs2_ewgsop_male.tsv
+
+#STUDY 19.RS3
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/rs3_ewgsop_male.tsv
+
+#STUDY 20.SHIP2
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/ship2_ewgsop_male.tsv
+
+#STUDY 21.TSHA
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL beta
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se
+FREQLABEL af_coded_all
+PROCESS data/tsha_ewgsop_male.tsv
+
+#STUDY 22.WLS
+MARKERLABEL id
+ALLELELABELS coded_all noncoded_all
+EFFECTLABEL ln_or
+WEIGHTLABEL n_total
+PVALUELABEL p_value
+SEPARATOR TAB
+STDERRLABEL se_ln_or
+FREQLABEL a1freq
+PROCESS data/wls_ewgsop_male.with_ors.v20200218.tsv
+
+
+
+OUTFILE run_2020-03-13_1600/METAL-CHARGE_dynapenia_EWGSOP-MALE-2020-03-13-GC.se. .tbl
+VERBOSE ON
+MINWEIGHT 100
+ANALYZE HETEROGENEITY
+QUIT
