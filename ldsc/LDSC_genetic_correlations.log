@@ -1,0 +1,497 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--ref-ld-chr ldsc/eur_w_ld_chr/ \
+--out lowgrip_LDSC_genetic_correlations.txt \
+--rg data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz,data/Gripmax.UKB_2019.for_ldsc.txt.sumstats.gz,data/Height.Yengo_2018.Wood_plus_UKB.for_ldsc.txt.sumstats.gz,data/BMI.Yengo_2018.Locke_plus_UKB.for_ldsc.txt.sumstats.gz,data/WHRadjBMI.Pulit_2019.for_ldsc.txt.sumstats.gz,data/Lean_mass_appendicular.Zillikens_2017.for_ldsc.txt.sumstats.gz,data/Lean_mass_wholebody.Zillikens_2017.for_ldsc.txt.sumstats.gz,data/AD_sumstats_Jansenetal.txt.sumstats.gz,data/CAD.van_der_Haarst_2018.for_ldsc.txt.sumstats.gz,data/CKD_Pattaro_2016.txt.sumstats.gz,data/Mahajan.NatGenet2018b.T2D.European.txt.sumstats.gz,data/Michailidou_BC_2017.txt.sumstats.gz,data/Osteoarthritis_Zengini_2018.txt.sumstats.gz,data/RA.Okada_2014.for_ldsc.txt.sumstats.gz,data/Schumacher_PC_2018.txt.sumstats.gz,data/Stroke_EUR_Malik_2018.txt.sumstats.gz,data/Fracture.Trajanoska_2018.for_ldsc.txt.sumstats.gz,data/parents_mortality.Timmers_2019.txt.sumstats.gz \
+--w-ld-chr ldsc/eur_w_ld_chr/ 
+
+Beginning analysis at Fri Mar 20 20:53:14 2020
+Reading summary statistics from data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz ...
+Read summary statistics for 1181847 SNPs.
+Reading reference panel LD Score from ldsc/eur_w_ld_chr/[1-22] ...
+Read reference panel LD Scores for 1290028 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from ldsc/eur_w_ld_chr/[1-22] ...
+Read regression weight LD Scores for 1290028 SNPs.
+After merging with reference panel LD, 1174750 SNPs remain.
+After merging with regression SNP LD, 1174750 SNPs remain.
+Computing rg for phenotype 2/18
+Reading summary statistics from data/Gripmax.UKB_2019.for_ldsc.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+1173575 SNPs with valid alleles.
+
+Heritability of phenotype 1
+---------------------------
+Total Observed scale h2: 0.0442 (0.0028)
+Lambda GC: 1.1619
+Mean Chi^2: 1.2088
+Intercept: 0.9866 (0.008)
+Ratio < 0 (usually indicates GC correction).
+
+Heritability of phenotype 2/18
+------------------------------
+Total Observed scale h2: 0.1355 (0.0047)
+Lambda GC: 1.8405
+Mean Chi^2: 2.2827
+Intercept: 1.0718 (0.017)
+Ratio: 0.056 (0.0133)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: -0.0737 (0.0031)
+Mean z1*z2: -0.9003
+Intercept: -0.4084 (0.0095)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: -0.952 (0.0167)
+Z-score: -57.0351
+P: 0.
+
+Computing rg for phenotype 3/18
+Reading summary statistics from data/Height.Yengo_2018.Wood_plus_UKB.for_ldsc.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+1010619 SNPs with valid alleles.
+
+Heritability of phenotype 3/18
+------------------------------
+Total Observed scale h2: 0.4337 (0.017)
+Lambda GC: 3.6129
+Mean Chi^2: 7.6684
+Intercept: 1.6406 (0.0918)
+Ratio: 0.0961 (0.0138)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: -0.0499 (0.0038)
+Mean z1*z2: -0.5646
+Intercept: -0.1278 (0.0148)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: -0.3739 (0.0232)
+Z-score: -16.1129
+P: 2.0718e-58
+
+Computing rg for phenotype 4/18
+Reading summary statistics from data/BMI.Yengo_2018.Locke_plus_UKB.for_ldsc.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+1014275 SNPs with valid alleles.
+
+Heritability of phenotype 4/18
+------------------------------
+Total Observed scale h2: 0.2091 (0.0064)
+Lambda GC: 2.7872
+Mean Chi^2: 3.8997
+Intercept: 1.031 (0.0257)
+Ratio: 0.0107 (0.0089)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0087 (0.0023)
+Mean z1*z2: 0.0986
+Intercept: 0.0075 (0.0081)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.0908 (0.0249)
+Z-score: 3.6388
+P: 0.0003
+
+Computing rg for phenotype 5/18
+Reading summary statistics from data/WHRadjBMI.Pulit_2019.for_ldsc.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+1173351 SNPs with valid alleles.
+
+Heritability of phenotype 5/18
+------------------------------
+Total Observed scale h2: 0.1162 (0.0056)
+Lambda GC: 1.8044
+Mean Chi^2: 2.5294
+Intercept: 1.1379 (0.0267)
+Ratio: 0.0902 (0.0175)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0093 (0.0019)
+Mean z1*z2: 0.1003
+Intercept: 0.0384 (0.0071)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.1298 (0.0274)
+Z-score: 4.7285
+P: 2.2616e-06
+
+Computing rg for phenotype 6/18
+Reading summary statistics from data/Lean_mass_appendicular.Zillikens_2017.for_ldsc.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+1035603 SNPs with valid alleles.
+
+Heritability of phenotype 6/18
+------------------------------
+Total Observed scale h2: 0.1804 (0.0205)
+Lambda GC: 1.0833
+Mean Chi^2: 1.0947
+Intercept: 0.995 (0.0073)
+Ratio < 0 (usually indicates GC correction).
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: -0.0238 (0.0055)
+Mean z1*z2: -0.0502
+Intercept: -0.0111 (0.0057)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: -0.265 (0.0582)
+Z-score: -4.5531
+P: 5.2874e-06
+
+Computing rg for phenotype 7/18
+Reading summary statistics from data/Lean_mass_wholebody.Zillikens_2017.for_ldsc.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+1022438 SNPs with valid alleles.
+
+Heritability of phenotype 7/18
+------------------------------
+Total Observed scale h2: 0.131 (0.0152)
+Lambda GC: 1.0864
+Mean Chi^2: 1.0996
+Intercept: 0.9993 (0.0077)
+Ratio < 0 (usually indicates GC correction).
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: -0.024 (0.0051)
+Mean z1*z2: -0.0581
+Intercept: -0.0106 (0.006)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: -0.3089 (0.0607)
+Z-score: -5.0899
+P: 3.5834e-07
+
+Computing rg for phenotype 8/18
+Reading summary statistics from data/AD_sumstats_Jansenetal.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+1122780 SNPs with valid alleles.
+
+Heritability of phenotype 8/18
+------------------------------
+Total Observed scale h2: 0.0079 (0.0047)
+Lambda GC: 1.0833
+Mean Chi^2: 1.1247
+Intercept: 1.0526 (0.058)
+Ratio: 0.4215 (0.465)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0029 (0.0013)
+Mean z1*z2: 0.0253
+Intercept: 0.0093 (0.0048)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.157 (0.0787)
+Z-score: 1.9955
+P: 0.046
+
+Computing rg for phenotype 9/18
+Reading summary statistics from data/CAD.van_der_Haarst_2018.for_ldsc.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+1173192 SNPs with valid alleles.
+
+Heritability of phenotype 9/18
+------------------------------
+Total Observed scale h2: 0.057 (0.0031)
+Lambda GC: 1.3615
+Mean Chi^2: 1.6
+Intercept: 0.9934 (0.015)
+Ratio < 0 (usually indicates GC correction).
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0098 (0.0015)
+Mean z1*z2: 0.0884
+Intercept: 0.0158 (0.0059)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.1948 (0.0301)
+Z-score: 6.4813
+P: 9.0959e-11
+
+Computing rg for phenotype 10/18
+Reading summary statistics from data/CKD_Pattaro_2016.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+980864 SNPs with valid alleles.
+
+Heritability of phenotype 10/18
+-------------------------------
+Total Observed scale h2: 0.167 (0.0661)
+Lambda GC: 1.0466
+Mean Chi^2: 1.0615
+Intercept: 0.9522 (0.014)
+Ratio < 0 (usually indicates GC correction).
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0004 (0.0042)
+Mean z1*z2: 0.0053
+Intercept: 0.0044 (0.0049)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.0042 (0.0491)
+Z-score: 0.0854
+P: 0.9319
+
+Computing rg for phenotype 11/18
+Reading summary statistics from data/Mahajan.NatGenet2018b.T2D.European.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+1173506 SNPs with valid alleles.
+
+Heritability of phenotype 11/18
+-------------------------------
+Total Observed scale h2: 0.1952 (0.0095)
+Lambda GC: 1.6259
+Mean Chi^2: 1.9545
+Intercept: 1.0782 (0.0232)
+Ratio: 0.0819 (0.0243)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0147 (0.0028)
+Mean z1*z2: 0.0841
+Intercept: 0.018 (0.0067)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.1582 (0.0307)
+Z-score: 5.1459
+P: 2.6617e-07
+
+Computing rg for phenotype 12/18
+Reading summary statistics from data/Michailidou_BC_2017.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+1112662 SNPs with valid alleles.
+
+Heritability of phenotype 12/18
+-------------------------------
+Total Observed scale h2: 0.1358 (0.0114)
+Lambda GC: 1.3581
+Mean Chi^2: 1.6811
+Intercept: 1.0917 (0.02)
+Ratio: 0.1347 (0.0293)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0035 (0.0025)
+Mean z1*z2: 0.024
+Intercept: 0.0114 (0.0059)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.0453 (0.0315)
+Z-score: 1.4395
+P: 0.15
+
+Computing rg for phenotype 13/18
+Reading summary statistics from data/Osteoarthritis_Zengini_2018.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+1156586 SNPs with valid alleles.
+
+Heritability of phenotype 13/18
+-------------------------------
+Total Observed scale h2: 0.0635 (0.0085)
+Lambda GC: 1.0957
+Mean Chi^2: 1.091
+Intercept: 1.0099 (0.0064)
+Ratio: 0.1088 (0.0699)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0156 (0.0033)
+Mean z1*z2: 0.0803
+Intercept: 0.0413 (0.0048)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.2972 (0.0626)
+Z-score: 4.7516
+P: 2.0177e-06
+
+Computing rg for phenotype 14/18
+Reading summary statistics from data/RA.Okada_2014.for_ldsc.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+1160968 SNPs with valid alleles.
+
+Heritability of phenotype 14/18
+-------------------------------
+Total Observed scale h2: 0.1473 (0.0247)
+Lambda GC: 1.0466
+Mean Chi^2: 1.1155
+Intercept: 0.943 (0.0114)
+Ratio < 0 (usually indicates GC correction).
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0103 (0.0033)
+Mean z1*z2: 0.0291
+Intercept: 0.0053 (0.0044)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.1267 (0.0413)
+Z-score: 3.0713
+P: 0.0021
+
+Computing rg for phenotype 15/18
+Reading summary statistics from data/Schumacher_PC_2018.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+1093118 SNPs with valid alleles.
+
+Heritability of phenotype 15/18
+-------------------------------
+Total Observed scale h2: 0.0575 (0.0069)
+Lambda GC: 1.1301
+Mean Chi^2: 1.228
+Intercept: 1.071 (0.0226)
+Ratio: 0.3116 (0.0993)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0002 (0.0024)
+Mean z1*z2: 0.0072
+Intercept: 0.0049 (0.0053)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.0037 (0.0484)
+Z-score: 0.0771
+P: 0.9386
+
+Computing rg for phenotype 16/18
+Reading summary statistics from data/Stroke_EUR_Malik_2018.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+1173515 SNPs with valid alleles.
+
+Heritability of phenotype 16/18
+-------------------------------
+Total Observed scale h2: 0.0128 (0.0014)
+Lambda GC: 1.1238
+Mean Chi^2: 1.1481
+Intercept: 1.0349 (0.0073)
+Ratio: 0.2356 (0.0496)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0026 (0.0013)
+Mean z1*z2: 0.0238
+Intercept: 0.0093 (0.0053)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.1078 (0.0546)
+Z-score: 1.9741
+P: 0.0484
+
+Computing rg for phenotype 17/18
+Reading summary statistics from data/Fracture.Trajanoska_2018.for_ldsc.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+1075808 SNPs with valid alleles.
+
+Heritability of phenotype 17/18
+-------------------------------
+Total Observed scale h2: 0.0216 (0.0024)
+Lambda GC: 1.0679
+Mean Chi^2: 1.1006
+Intercept: 0.9877 (0.0065)
+Ratio < 0 (usually indicates GC correction).
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0005 (0.0016)
+Mean z1*z2: 0.014
+Intercept: 0.0109 (0.0047)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.0164 (0.0514)
+Z-score: 0.3193
+P: 0.7495
+
+Computing rg for phenotype 18/18
+Reading summary statistics from data/parents_mortality.Timmers_2019.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1174750 SNPs remain.
+1150271 SNPs with valid alleles.
+
+Heritability of phenotype 18/18
+-------------------------------
+Total Observed scale h2: 0.0232 (0.0014)
+Lambda GC: 1.2966
+Mean Chi^2: 1.339
+Intercept: 1.0514 (0.0115)
+Ratio: 0.1518 (0.034)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0063 (0.0011)
+Mean z1*z2: 0.0747
+Intercept: 0.0267 (0.0048)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.1968 (0.0348)
+Z-score: 5.6515
+P: 1.5906e-08
+
+
+Summary of Genetic Correlation Results
+p1                                                                                                                                    p2      rg      se        z           p  h2_obs  h2_obs_se  h2_int  h2_int_se  gcov_int  gcov_int_se
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz                       data/Gripmax.UKB_2019.for_ldsc.txt.sumstats.gz -0.9520  0.0167 -57.0351  0.0000e+00  0.1355     0.0047  1.0718     0.0170   -0.4084       0.0095
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz        data/Height.Yengo_2018.Wood_plus_UKB.for_ldsc.txt.sumstats.gz -0.3739  0.0232 -16.1129  2.0718e-58  0.4337     0.0170  1.6406     0.0918   -0.1278       0.0148
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz          data/BMI.Yengo_2018.Locke_plus_UKB.for_ldsc.txt.sumstats.gz  0.0908  0.0249   3.6388  2.7390e-04  0.2091     0.0064  1.0310     0.0257    0.0075       0.0081
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz                   data/WHRadjBMI.Pulit_2019.for_ldsc.txt.sumstats.gz  0.1298  0.0274   4.7285  2.2616e-06  0.1162     0.0056  1.1379     0.0267    0.0384       0.0071
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz  data/Lean_mass_appendicular.Zillikens_2017.for_ldsc.txt.sumstats.gz -0.2650  0.0582  -4.5531  5.2874e-06  0.1804     0.0205  0.9950     0.0073   -0.0111       0.0057
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz     data/Lean_mass_wholebody.Zillikens_2017.for_ldsc.txt.sumstats.gz -0.3089  0.0607  -5.0899  3.5834e-07  0.1310     0.0152  0.9993     0.0077   -0.0106       0.0060
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz                          data/AD_sumstats_Jansenetal.txt.sumstats.gz  0.1570  0.0787   1.9955  4.5990e-02  0.0079     0.0047  1.0526     0.0580    0.0093       0.0048
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz                data/CAD.van_der_Haarst_2018.for_ldsc.txt.sumstats.gz  0.1948  0.0301   6.4813  9.0959e-11  0.0570     0.0031  0.9934     0.0150    0.0158       0.0059
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz                                data/CKD_Pattaro_2016.txt.sumstats.gz  0.0042  0.0491   0.0854  9.3194e-01  0.1670     0.0661  0.9522     0.0140    0.0044       0.0049
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz              data/Mahajan.NatGenet2018b.T2D.European.txt.sumstats.gz  0.1582  0.0307   5.1459  2.6617e-07  0.1952     0.0095  1.0782     0.0232    0.0180       0.0067
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz                             data/Michailidou_BC_2017.txt.sumstats.gz  0.0453  0.0315   1.4395  1.5002e-01  0.1358     0.0114  1.0917     0.0200    0.0114       0.0059
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz                     data/Osteoarthritis_Zengini_2018.txt.sumstats.gz  0.2972  0.0626   4.7516  2.0177e-06  0.0635     0.0085  1.0099     0.0064    0.0413       0.0048
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz                          data/RA.Okada_2014.for_ldsc.txt.sumstats.gz  0.1267  0.0413   3.0713  2.1311e-03  0.1473     0.0247  0.9430     0.0114    0.0053       0.0044
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz                              data/Schumacher_PC_2018.txt.sumstats.gz  0.0037  0.0484   0.0771  9.3856e-01  0.0575     0.0069  1.0710     0.0226    0.0049       0.0053
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz                           data/Stroke_EUR_Malik_2018.txt.sumstats.gz  0.1078  0.0546   1.9741  4.8366e-02  0.0128     0.0014  1.0349     0.0073    0.0093       0.0053
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz               data/Fracture.Trajanoska_2018.for_ldsc.txt.sumstats.gz  0.0164  0.0514   0.3193  7.4951e-01  0.0216     0.0024  0.9877     0.0065    0.0109       0.0047
+data/dynapenia_ewgsop_all.Jones_2020.for_ldsc.txt.sumstats.gz                  data/parents_mortality.Timmers_2019.txt.sumstats.gz  0.1968  0.0348   5.6515  1.5906e-08  0.0232     0.0014  1.0514     0.0115    0.0267       0.0048
+
+Analysis finished at Fri Mar 20 20:54:43 2020
+Total time elapsed: 1.0m:28.61s
