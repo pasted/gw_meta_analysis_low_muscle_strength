@@ -1,2 +1,2 @@
-# gw_meta_analysis_low_muscle_strength
+#Genome -wide meta-analysis of low muscle strength in older people
  
