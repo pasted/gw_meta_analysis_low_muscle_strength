@@ -14,8 +14,8 @@ Using Mendelian randomization we report possible overlapping causal pathways, in
 
 ## Index of analysis code
 
-- ukb_gwas : BOLT-LMM GWAS 
-- metal_meta_analysis : METAL GWAS meta-analysis
-- filtering : Post meta-analysis filtering
-- ldsc : LDSC and heritability calculations
-- mendelian_randomization : TwoSample MR script example
+- ukb_gwas : BOLT-LMM GWAS [lp]
+- metal_meta_analysis : METAL GWAS meta-analysis [gj]
+- filtering : Post meta-analysis filtering [gj]
+- ldsc : LDSC and heritability calculations [lp]
+- mendelian_randomization : TwoSample MR script example [gj]
